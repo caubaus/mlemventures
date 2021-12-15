@@ -896,8 +896,8 @@ section {
 }
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
-  width: 100%;
-  height: auto;
+  width: 128px;
+  height: 128px;
 }
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
