@@ -8,9 +8,22 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html { 
+  /* background: rgb(36,20,34); */
+  /* background: linear-gradient(to bottom, rgba(36,20,34,1) 0%, rgba(36,28,31,1) 100%); */
+  /* background: url(images/bg.jpg) no-repeat center center fixed;  */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #f5f5f5;
+  background: #241422;
+  /* background: linear-gradient(135deg, rgba(36,20,34,1) 0%, rgba(167,5,79,1) 89%, rgba(255,55,146,1) 100%); */
 }
 
 a {
@@ -28,9 +41,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.gradient {
+/* .gradient {
   background: rgb(171,6,62);
   background: linear-gradient(90deg, rgba(171,6,62,1) 0%, rgba(235,13,114,1) 49%, rgba(213,9,188,1) 100%);
+} */
+
+.gradient {
+  background: rgb(36,20,34);
+  background: linear-gradient(135deg, rgba(36,20,34,1) 0%, rgba(167,5,79,1) 89%, rgba(255,55,146,1) 100%);
+}
+
+.blob {
+  background-image: url('../img/blob-scene-haikei.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*--------------------------------------------------------------
@@ -78,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
-  background: #fff;
+  background: #241422;
 }
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -128,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 400;
-  color: #555555;
+  color: #f62990;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -308,10 +332,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color: #fff;
 }
 #hero h2 {
-  color: #484848;
+  color: #e6e6e6;
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -415,7 +439,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  color: #222222;
+  color: #f5f5f5;
 }
 .section-title h2::before, .section-title h2::after {
   content: "";
@@ -474,7 +498,18 @@ section {
 --------------------------------------------------------------*/
 .about {
   color: #fff;
+  background: #ab073e;
 }
+
+.about .section-title h2 {
+  color: #fff;
+}
+
+.about .section-title h2::before,
+.about .section-title h2::after {
+  background: #000;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
