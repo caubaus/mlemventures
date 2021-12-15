@@ -8,16 +8,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-html { 
-  /* background: rgb(36,20,34); */
-  /* background: linear-gradient(to bottom, rgba(36,20,34,1) 0%, rgba(36,28,31,1) 100%); */
-  /* background: url(images/bg.jpg) no-repeat center center fixed;  */
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat; */
-}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -40,22 +30,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-
-/* .gradient {
-  background: rgb(171,6,62);
-  background: linear-gradient(90deg, rgba(171,6,62,1) 0%, rgba(235,13,114,1) 49%, rgba(213,9,188,1) 100%);
-} */
-
-.gradient {
-  background: rgb(36,20,34);
-  background: linear-gradient(135deg, rgba(36,20,34,1) 0%, rgba(167,5,79,1) 89%, rgba(255,55,146,1) 100%);
-}
-
-.blob {
-  background-image: url('../img/blob-scene-haikei.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -427,7 +401,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+  background-color: #79032a;
 }
 
 .section-title {
@@ -498,17 +472,16 @@ section {
 --------------------------------------------------------------*/
 .about {
   color: #fff;
-  background: #ab073e;
 }
 
 .about .section-title h2 {
   color: #fff;
 }
 
-.about .section-title h2::before,
+/* .about .section-title h2::before,
 .about .section-title h2::after {
   background: #000;
-}
+} */
 
 .about .content h3 {
   font-weight: 600;
