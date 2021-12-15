@@ -27,6 +27,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+.gradient {
+  background: rgb(171,6,62);
+  background: linear-gradient(90deg, rgba(171,6,62,1) 0%, rgba(235,13,114,1) 49%, rgba(213,9,188,1) 100%);
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -392,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  /* padding: 60px 0; */
   overflow: hidden;
 }
 
@@ -466,6 +472,9 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about {
+  color: #fff;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
