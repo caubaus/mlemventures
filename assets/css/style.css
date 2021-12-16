@@ -903,7 +903,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
-  color: #888;
+  color: #fff;
 }
 .contact .social-links {
   padding-bottom: 20px;
@@ -915,7 +915,7 @@ section {
   color: #f6296b;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-top: 4px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -928,7 +928,7 @@ section {
   color: #fff;
 }
 .contact .info {
-  color: #444444;
+  color: #fff;
 }
 .contact .info i {
   font-size: 32px;
