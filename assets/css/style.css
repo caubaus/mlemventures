@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.gradient {
+  background: rgb(36,20,34);
+  background: linear-gradient(180deg, #241422 0%, rgba(121,3,42,0.7707457983193278) 47%, #241422 100%);
+}
 
 /*--------------------------------------------------------------
 # Back to top button
