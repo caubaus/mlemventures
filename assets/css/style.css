@@ -240,6 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #241422;
   transition: 0.3s;
   z-index: 999;
+  opacity: 0.95;
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
